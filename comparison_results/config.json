@@ -1,0 +1,25 @@
+{
+  "samples": 500,
+  "noise": 0.2,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "epochs": 100,
+  "mlp_epochs": 1000,
+  "mlp_learning_rate": 0.01,
+  "layers": 3,
+  "learning_rate": 0.05,
+  "output": "comparison_results",
+  "python": "3.14.6",
+  "platform": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "versions": {
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "pennylane": "0.45.1",
+    "matplotlib": "3.11.2"
+  }
+}
